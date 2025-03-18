@@ -22,3 +22,7 @@ public class Contractor
         this.name = name;
         this.licenseNumber = licenseNumber;
     }
+// Getters and Setters
+    public Long getId() {
+        return id;
+    }
