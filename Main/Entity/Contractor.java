@@ -35,3 +35,6 @@ public String getName() {
 public List<Project> getProjects() {
         return projects;
     }
+ public void setId(Long id) {
+        this.id = id;
+    }
