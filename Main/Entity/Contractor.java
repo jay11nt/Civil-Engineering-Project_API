@@ -14,3 +14,6 @@ public class Contractor
 
 @OneToMany(mappedBy = "contractor", cascade = CascadeType.ALL)
     private List<Project> projects;
+
+// Constructors
+    public Contractor() { }
