@@ -16,4 +16,7 @@ public class Contractor
     private List<Project> projects;
 
 // Constructors
-    public Contractor() { }
+        public Contractor() { }
+        public Contractor(String name, String licenseNumber) {
+        this.name = name;
+        this.licenseNumber = licenseNumber;
