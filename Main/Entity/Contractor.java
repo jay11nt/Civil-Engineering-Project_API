@@ -11,3 +11,5 @@ public class Contractor
     private Long id;
     private String name;
     private String licenseNumber;
+
+@OneToMany(mappedBy = "contractor", cascade = CascadeType.ALL)
