@@ -13,3 +13,4 @@ public class Contractor
     private String licenseNumber;
 
 @OneToMany(mappedBy = "contractor", cascade = CascadeType.ALL)
+    private List<Project> projects;
