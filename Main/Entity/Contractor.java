@@ -26,3 +26,9 @@ public class Contractor
     public Long getId() {
         return id;
     }
+public String getName() {
+        return name;
+    }
+    public String getLicenseNumber() {
+        return licenseNumber;
+    }
