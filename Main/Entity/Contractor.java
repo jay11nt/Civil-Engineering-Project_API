@@ -10,3 +10,4 @@ public class Contractor
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String licenseNumber;
