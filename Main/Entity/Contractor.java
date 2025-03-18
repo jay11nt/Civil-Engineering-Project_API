@@ -32,3 +32,6 @@ public String getName() {
     public String getLicenseNumber() {
         return licenseNumber;
     }
+public List<Project> getProjects() {
+        return projects;
+    }
