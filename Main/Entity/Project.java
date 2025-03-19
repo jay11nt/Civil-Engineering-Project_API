@@ -31,3 +31,6 @@ public class Project {
 public Project(String name, String description, LocalDate startDate, LocalDate endDate, Contractor contractor) {
         this.name = name;
         this.description = description;
+this.startDate = startDate;
+        this.endDate = endDate;
+        this.contractor = contractor;
