@@ -59,3 +59,6 @@ public LocalDate getEndDate() {
 public List<Engineer> getEngineers() {
         return engineers;
     }
+ public List<Building> getBuildings() {
+        return buildings;
+    }
