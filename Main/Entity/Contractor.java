@@ -44,3 +44,7 @@ public void setName(String name) {
 public void setLicenseNumber(String licenseNumber) {
         this.licenseNumber = licenseNumber;
     }
+ public void setProjects(List<Project> projects) {
+        this.projects = projects;
+    }
+}
