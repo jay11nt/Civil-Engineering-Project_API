@@ -21,3 +21,6 @@ public class Project {
 
  @OneToMany(mappedBy = "project", cascade = CascadeType.ALL)
     private List<Engineer> engineers;
+
+@OneToMany(mappedBy = "project", cascade = CascadeType.ALL)
+    private List<Building> buildings;
