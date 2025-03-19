@@ -62,3 +62,6 @@ public List<Engineer> getEngineers() {
  public List<Building> getBuildings() {
         return buildings;
     }
+ public void setId(Long id) {
+        this.id = id;
+    }
