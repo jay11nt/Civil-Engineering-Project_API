@@ -83,3 +83,7 @@ public void setContractor(Contractor contractor) {
  public void setEngineers(List<Engineer> engineers) {
         this.engineers = engineers;
     }
+public void setBuildings(List<Building> buildings) {
+        this.buildings = buildings;
+    }
+}
