@@ -80,3 +80,6 @@ public void setEndDate(LocalDate endDate) {
 public void setContractor(Contractor contractor) {
         this.contractor = contractor;
     }
+ public void setEngineers(List<Engineer> engineers) {
+        this.engineers = engineers;
+    }
