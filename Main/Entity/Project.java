@@ -14,3 +14,7 @@ public class Project {
     private String description;
    private LocalDate startDate;
     private LocalDate endDate;
+
+@ManyToOne
+    @JoinColumn(name = "contractor_id")
+    private Contractor contractor;
