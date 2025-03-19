@@ -77,3 +77,6 @@ public void setStartDate(LocalDate startDate) {
 public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
+public void setContractor(Contractor contractor) {
+        this.contractor = contractor;
+    }
