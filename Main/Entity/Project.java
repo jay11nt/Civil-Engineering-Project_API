@@ -34,3 +34,9 @@ public Project(String name, String description, LocalDate startDate, LocalDate e
 this.startDate = startDate;
         this.endDate = endDate;
         this.contractor = contractor;
+
+   }
+    
+    // Getters and Setters
+    public Long getId() {
+        return id;
