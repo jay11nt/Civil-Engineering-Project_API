@@ -74,3 +74,6 @@ public void setDescription(String description) {
 public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
+public void setEndDate(LocalDate endDate) {
+        this.endDate = endDate;
+    }
