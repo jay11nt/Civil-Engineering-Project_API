@@ -41,3 +41,6 @@ public List<Project> getProjects() {
 public void setName(String name) {
         this.name = name;
     }
+public void setLicenseNumber(String licenseNumber) {
+        this.licenseNumber = licenseNumber;
+    }
