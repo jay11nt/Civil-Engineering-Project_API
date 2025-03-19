@@ -53,3 +53,6 @@ public String getDescription() {
 public LocalDate getEndDate() {
         return endDate;
     }
+ public Contractor getContractor() {
+        return contractor;
+    }
