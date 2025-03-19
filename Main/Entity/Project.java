@@ -47,3 +47,6 @@ this.startDate = startDate;
 public String getDescription() {
         return description;
     }
+ public LocalDate getStartDate() {
+        return startDate;
+    }
