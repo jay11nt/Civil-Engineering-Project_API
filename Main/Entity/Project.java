@@ -18,3 +18,6 @@ public class Project {
 @ManyToOne
     @JoinColumn(name = "contractor_id")
     private Contractor contractor;
+
+ @OneToMany(mappedBy = "project", cascade = CascadeType.ALL)
+    private List<Engineer> engineers;
