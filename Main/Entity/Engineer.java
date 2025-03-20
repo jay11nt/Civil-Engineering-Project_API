@@ -10,5 +10,9 @@ public class Engineer
     private Long id;
     private String name;
     private String specialization;
-
-private Project project;
+    
+    @ManyToOne
+    @JoinColumn(name = "project_id")
+    private Project project;
+// Constructors
+    public Engineer() { }
