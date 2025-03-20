@@ -9,3 +9,7 @@ public class Building {
     private Long id;
     private String name;
     private String address;
+
+    @ManyToOne
+    @JoinColumn(name = "project_id")
+    private Project project;
