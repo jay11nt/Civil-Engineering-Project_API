@@ -10,3 +10,5 @@ public class Engineer
     private Long id;
     private String name;
     private String specialization;
+
+private Project project;
