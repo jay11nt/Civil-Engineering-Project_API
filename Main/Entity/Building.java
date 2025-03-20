@@ -13,3 +13,6 @@ public class Building {
     @ManyToOne
     @JoinColumn(name = "project_id")
     private Project project;
+
+// Constructors
+    public Building() { }
