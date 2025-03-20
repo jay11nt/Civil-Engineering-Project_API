@@ -37,3 +37,10 @@ public String getSpecialization() {
     public Project getProject() {
         return project;
     }
+public void setId(Long id) {
+        this.id = id;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    
