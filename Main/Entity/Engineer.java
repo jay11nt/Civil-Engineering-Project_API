@@ -43,4 +43,11 @@ public void setId(Long id) {
     public void setName(String name) {
         this.name = name;
     }
-    
+  public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+    public void setProject(Project project) {
+        this.project = project;
+    }
+}
+  
