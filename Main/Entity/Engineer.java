@@ -23,3 +23,11 @@ public class Engineer
         this.specialization = specialization;
         this.project = project;
     }
+
+// Getters and Setters
+    public Long getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
