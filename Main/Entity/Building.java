@@ -16,3 +16,9 @@ public class Building {
 
 // Constructors
     public Building() { }
+
+ public Building(String name, String address, Project project) {
+        this.name = name;
+        this.address = address;
+        this.project = project;
+    }
