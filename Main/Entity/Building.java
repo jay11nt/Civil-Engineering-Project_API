@@ -22,3 +22,7 @@ public class Building {
         this.address = address;
         this.project = project;
     }
+// Getters and Setters
+    public Long getId() {
+        return id;
+    }
