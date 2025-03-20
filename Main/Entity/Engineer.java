@@ -5,3 +5,5 @@ import javax.persistence.*;
 @Entity
 public class Engineer 
 {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
