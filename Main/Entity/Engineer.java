@@ -14,5 +14,12 @@ public class Engineer
     @ManyToOne
     @JoinColumn(name = "project_id")
     private Project project;
+    
 // Constructors
     public Engineer() { }
+    
+    public Engineer(String name, String specialization, Project project) {
+        this.name = name;
+        this.specialization = specialization;
+        this.project = project;
+    }
