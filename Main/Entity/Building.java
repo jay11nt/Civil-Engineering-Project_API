@@ -44,3 +44,7 @@ public void setName(String name) {
     public void setAddress(String address) {
         this.address = address;
     }
+public void setProject(Project project) {
+        this.project = project;
+    }
+}
