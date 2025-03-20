@@ -32,3 +32,9 @@ public String getName() {
     public String getAddress() {
         return address;
     }
+public Project getProject() {
+        return project;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
