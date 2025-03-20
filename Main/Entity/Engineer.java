@@ -31,3 +31,9 @@ public class Engineer
     public String getName() {
         return name;
     }
+public String getSpecialization() {
+        return specialization;
+    }
+    public Project getProject() {
+        return project;
+    }
