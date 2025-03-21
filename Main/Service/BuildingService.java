@@ -23,3 +23,11 @@ public List<Building> getAllBuildings() {
 public Optional<Building> getBuildingById(Long id) {
         return buildingRepository.findById(id);
     }
+public Building updateBuilding(Long id, Building buildingDetails) {
+        Building building = buildingRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Building not found"));
+        building.setName(buildingDetails.getName());
+        building.setAddress(buildingDetails.getAddress());
+        building.setProject(buildingDetails.getProject());
+        return buildingRepository.save(building);
+    }
