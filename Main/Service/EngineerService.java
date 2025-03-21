@@ -27,3 +27,11 @@ public List<Engineer> getAllEngineers() {
     public Optional<Engineer> getEngineerById(Long id) {
         return engineerRepository.findById(id);
     }
+public Engineer updateEngineer(Long id, Engineer engineerDetails) {
+        Engineer engineer = engineerRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Engineer not found"));
+        engineer.setName(engineerDetails.getName());
+        engineer.setSpecialization(engineerDetails.getSpecialization());
+        engineer.setProject(engineerDetails.getProject());
+        return engineerRepository.save(engineer);
+    }
