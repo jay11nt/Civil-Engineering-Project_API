@@ -35,3 +35,7 @@ public Engineer updateEngineer(Long id, Engineer engineerDetails) {
         engineer.setProject(engineerDetails.getProject());
         return engineerRepository.save(engineer);
     }
+public void deleteEngineer(Long id) {
+        engineerRepository.deleteById(id);
+    }
+}
