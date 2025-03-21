@@ -10,3 +10,7 @@ import java.util.Optional;
 @Service
 public class BuildingService {
     private final BuildingRepository buildingRepository;
+
+public BuildingService(BuildingRepository buildingRepository) {
+        this.buildingRepository = buildingRepository;
+    }
