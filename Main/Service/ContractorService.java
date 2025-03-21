@@ -15,3 +15,11 @@ public class ContractorService {
     public ContractorService(ContractorRepository contractorRepository) {
         this.contractorRepository = contractorRepository;
     }
+
+public Contractor createContractor(Contractor contractor) {
+        return contractorRepository.save(contractor);
+    }
+
+    public List<Contractor> getAllContractors() {
+        return contractorRepository.findAll();
+    }
