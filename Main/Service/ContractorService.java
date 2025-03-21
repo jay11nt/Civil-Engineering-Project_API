@@ -6,3 +6,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
+
+@Service
+public class ContractorService {
+    private final ContractorRepository contractorRepository;
+
+    public ContractorService(ContractorRepository contractorRepository) {
+        this.contractorRepository = contractorRepository;
+    }
