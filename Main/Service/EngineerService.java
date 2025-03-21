@@ -11,3 +11,11 @@ import java.util.Optional;
 @Service
 public class EngineerService {
     private final EngineerRepository engineerRepository;
+
+public EngineerService(EngineerRepository engineerRepository) {
+        this.engineerRepository = engineerRepository;
+    }
+
+    public Engineer createEngineer(Engineer engineer) {
+        return engineerRepository.save(engineer);
+    }
