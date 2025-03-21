@@ -19,3 +19,11 @@ public EngineerService(EngineerRepository engineerRepository) {
     public Engineer createEngineer(Engineer engineer) {
         return engineerRepository.save(engineer);
     }
+
+public List<Engineer> getAllEngineers() {
+        return engineerRepository.findAll();
+    }
+
+    public Optional<Engineer> getEngineerById(Long id) {
+        return engineerRepository.findById(id);
+    }
