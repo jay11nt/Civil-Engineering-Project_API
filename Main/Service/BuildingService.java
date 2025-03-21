@@ -31,3 +31,7 @@ public Building updateBuilding(Long id, Building buildingDetails) {
         building.setProject(buildingDetails.getProject());
         return buildingRepository.save(building);
     }
+public void deleteBuilding(Long id) {
+        buildingRepository.deleteById(id);
+    }
+}
