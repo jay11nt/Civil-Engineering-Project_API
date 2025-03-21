@@ -17,3 +17,6 @@ public BuildingService(BuildingRepository buildingRepository) {
  public Building createBuilding(Building building) {
         return buildingRepository.save(building);
     }
+public List<Building> getAllBuildings() {
+        return buildingRepository.findAll();
+    }
