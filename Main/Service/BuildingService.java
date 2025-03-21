@@ -14,3 +14,6 @@ public class BuildingService {
 public BuildingService(BuildingRepository buildingRepository) {
         this.buildingRepository = buildingRepository;
     }
+ public Building createBuilding(Building building) {
+        return buildingRepository.save(building);
+    }
