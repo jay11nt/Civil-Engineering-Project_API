@@ -25,3 +25,9 @@ public class ContractorController {
     public ResponseEntity<List<Contractor>> getAllContractors() {
         return ResponseEntity.ok(contractorService.getAllContractors());
     }
+    @GetMapping("/{id}")
+    public ResponseEntity<Contractor> getContractorById(@PathVariable Long id) {
+        return contractorService.getContractorById(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
