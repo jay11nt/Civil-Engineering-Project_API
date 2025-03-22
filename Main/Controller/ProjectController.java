@@ -18,3 +18,7 @@ public ProjectController(ProjectService projectService) {
     public ResponseEntity<Project> createProject(@RequestBody Project project) {
         return ResponseEntity.ok(projectService.createProject(project));
     }
+@GetMapping
+    public ResponseEntity<List<Project>> getAllProjects() {
+        return ResponseEntity.ok(projectService.getAllProjects());
+    }
