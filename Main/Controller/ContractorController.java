@@ -21,3 +21,7 @@ public class ContractorController {
     public ResponseEntity<Contractor> createContractor(@RequestBody Contractor contractor) {
         return ResponseEntity.ok(contractorService.createContractor(contractor));
     }
+@GetMapping
+    public ResponseEntity<List<Contractor>> getAllContractors() {
+        return ResponseEntity.ok(contractorService.getAllContractors());
+    }
