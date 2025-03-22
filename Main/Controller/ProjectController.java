@@ -14,3 +14,7 @@ public class ProjectController {
 public ProjectController(ProjectService projectService) {
         this.projectService = projectService;
     }
+@PostMapping
+    public ResponseEntity<Project> createProject(@RequestBody Project project) {
+        return ResponseEntity.ok(projectService.createProject(project));
+    }
