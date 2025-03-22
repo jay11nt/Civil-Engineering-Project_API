@@ -17,3 +17,7 @@ public class ContractorController {
         this.contractorService = contractorService;
     }
   
+@PostMapping
+    public ResponseEntity<Contractor> createContractor(@RequestBody Contractor contractor) {
+        return ResponseEntity.ok(contractorService.createContractor(contractor));
+    }
