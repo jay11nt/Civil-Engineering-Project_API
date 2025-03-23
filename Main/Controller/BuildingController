@@ -33,3 +33,9 @@ public BuildingController(BuildingService buildingService) {
     public ResponseEntity<Building> updateBuilding(@PathVariable Long id, @RequestBody Building building) {
         return ResponseEntity.ok(buildingService.updateBuilding(id, building));
     }
+@DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteBuilding(@PathVariable Long id) {
+        buildingService.deleteBuilding(id);
+        return ResponseEntity.noContent().build();
+    }
+}
