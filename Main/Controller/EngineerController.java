@@ -11,3 +11,7 @@ import java.util.List;
 @RequestMapping("/api/engineers")
 public class EngineerController {
     private final EngineerService engineerService;
+
+public EngineerController(EngineerService engineerService) {
+        this.engineerService = engineerService;
+    }
