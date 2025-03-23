@@ -19,3 +19,7 @@ public EngineerController(EngineerService engineerService) {
     public ResponseEntity<Engineer> createEngineer(@RequestBody Engineer engineer) {
         return ResponseEntity.ok(engineerService.createEngineer(engineer));
     }
+@GetMapping
+    public ResponseEntity<List<Engineer>> getAllEngineers() {
+        return ResponseEntity.ok(engineerService.getAllEngineers());
+    }
