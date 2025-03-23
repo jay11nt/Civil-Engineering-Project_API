@@ -33,3 +33,9 @@ public EngineerController(EngineerService engineerService) {
     public ResponseEntity<Engineer> updateEngineer(@PathVariable Long id, @RequestBody Engineer engineer) {
         return ResponseEntity.ok(engineerService.updateEngineer(id, engineer));
     }
+@DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteEngineer(@PathVariable Long id) {
+        engineerService.deleteEngineer(id);
+        return ResponseEntity.noContent().build();
+    }
+}
