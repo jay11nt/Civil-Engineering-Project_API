@@ -5,3 +5,8 @@ import com.example.civil.service.BuildingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
+@RestController
+@RequestMapping("/api/buildings")
+public class BuildingController {
+    private final BuildingService buildingService;
