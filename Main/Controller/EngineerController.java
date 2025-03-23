@@ -29,3 +29,7 @@ public EngineerController(EngineerService engineerService) {
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+@PutMapping("/{id}")
+    public ResponseEntity<Engineer> updateEngineer(@PathVariable Long id, @RequestBody Engineer engineer) {
+        return ResponseEntity.ok(engineerService.updateEngineer(id, engineer));
+    }
