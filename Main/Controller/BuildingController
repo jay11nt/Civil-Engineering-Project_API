@@ -14,3 +14,8 @@ public class BuildingController {
 public BuildingController(BuildingService buildingService) {
         this.buildingService = buildingService;
     }
+
+@PostMapping
+    public ResponseEntity<Building> createBuilding(@RequestBody Building building) {
+        return ResponseEntity.ok(buildingService.createBuilding(building));
+    }
