@@ -19,3 +19,7 @@ public BuildingController(BuildingService buildingService) {
     public ResponseEntity<Building> createBuilding(@RequestBody Building building) {
         return ResponseEntity.ok(buildingService.createBuilding(building));
     }
+@GetMapping
+    public ResponseEntity<List<Building>> getAllBuildings() {
+        return ResponseEntity.ok(buildingService.getAllBuildings());
+    }
