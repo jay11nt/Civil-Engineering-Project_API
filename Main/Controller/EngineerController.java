@@ -15,3 +15,7 @@ public class EngineerController {
 public EngineerController(EngineerService engineerService) {
         this.engineerService = engineerService;
     }
+@PostMapping
+    public ResponseEntity<Engineer> createEngineer(@RequestBody Engineer engineer) {
+        return ResponseEntity.ok(engineerService.createEngineer(engineer));
+    }
