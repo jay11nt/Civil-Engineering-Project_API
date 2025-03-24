@@ -30,11 +30,11 @@ project role as a construction management API for backend.
                
 ## Create a Contractor
 
- ### -Method: POST
+### - Method: POST
   
- ### -URL: http://localhost:8080/api/contractors
+### - URL: http://localhost:8080/api/contractors
   
- ### -Body (raw, JSON):
+### - Body (raw, JSON):
     
                 {
               "name": "ABC Constructions",
