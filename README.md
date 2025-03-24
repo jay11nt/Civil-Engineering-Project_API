@@ -41,3 +41,7 @@ project role as a construction management API for backend.
               "licenseNumber": "LIC12345"
                 }
 
+### - Get All Contractors
+### - Method: GET
+
+### - URL: http://localhost:8080/api/contractors
