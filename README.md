@@ -7,17 +7,17 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 - ### Technologies Used :-
 
-- Java
+  - Java
 
-- Spring Boot
+  - Spring Boot
 
-- Spring Data JPA
+  - Spring Data JPA
 
-- Hibernate
+  - Hibernate
 
-- MySQL
+  - MySQL
 
-- Postman (for API testing)
+  - Postman (for API testing)
 
 - ### **Project Structure :-**
 
