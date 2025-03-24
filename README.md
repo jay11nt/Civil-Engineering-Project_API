@@ -39,5 +39,5 @@ project role as a construction management API for backend.
                 {
               "name": "ABC Constructions",
               "licenseNumber": "LIC12345"
-            }
+                }
 
