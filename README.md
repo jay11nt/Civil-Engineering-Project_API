@@ -5,6 +5,20 @@ project role as a construction management API for backend.
 
 This is a Spring Boot-based backend project for managing civil engineering-related entities. The system includes four main entities with relational mappings and provides a complete REST API for handling CRUD operations. The project includes service, repository, and controller layers and is fully testable via Postman.
 
+- ### Technologies Used :-
+
+- Java
+
+- Spring Boot
+
+- Spring Data JPA
+
+- Hibernate
+
+- MySQL
+
+- Postman (for API testing)
+
 - ### **Project Structure :-**
 
         src/main/java
@@ -48,4 +62,4 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 - URL: http://localhost:8080/api/contractors
 
-Create a Project
+### Create a Project
