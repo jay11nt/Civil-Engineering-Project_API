@@ -28,8 +28,7 @@ project role as a construction management API for backend.
                ├── EngineerController.java
                └── BuildingController.java
                
-## 1. Create a Contractor
-
+### 1. Create a Contractor
 ### - Method: POST
   
 ### - URL: http://localhost:8080/api/contractors
