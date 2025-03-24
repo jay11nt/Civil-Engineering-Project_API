@@ -32,11 +32,11 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
                    └── BuildingController.java
                
 ### 1. Create a Contractor
-- ### Method: POST
+- Method: POST
   
-- ### URL: http://localhost:8080/api/contractors
+- URL: http://localhost:8080/api/contractors
   
-- ### Body (raw, JSON):
+- Body (raw, JSON):
     
                 {
               "name": "ABC Constructions",
