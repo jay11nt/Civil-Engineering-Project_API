@@ -2,7 +2,6 @@
 project role as a construction management API for backend.
 
 
-
 ## **Project Structure-**
 
     src/main/java
@@ -28,3 +27,10 @@ project role as a construction management API for backend.
                ├── ProjectController.java
                ├── EngineerController.java
                └── BuildingController.java
+
+Create a Contractor
+Method: POST
+
+URL: http://localhost:8080/api/contractors
+
+Body (raw, JSON):
