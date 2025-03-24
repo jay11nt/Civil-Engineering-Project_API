@@ -44,8 +44,8 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
                 }
 
 ### 2. Get All Contractors
-### - Method: GET
+- Method: GET
 
-### - URL: http://localhost:8080/api/contractors
+- URL: http://localhost:8080/api/contractors
 
 Create a Project
