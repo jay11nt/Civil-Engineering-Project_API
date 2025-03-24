@@ -29,8 +29,13 @@ project role as a construction management API for backend.
                └── BuildingController.java
                
 ## Create a Contractor
-    Method: POST
 
-    URL: http://localhost:8080/api/contractors
+  Method: POST
+  URL: http://localhost:8080/api/contractors
+  Body (raw, JSON):
+    
+                {
+              "name": "ABC Constructions",
+              "licenseNumber": "LIC12345"
+            }
 
-    Body (raw, JSON):
