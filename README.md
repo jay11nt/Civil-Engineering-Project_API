@@ -59,7 +59,7 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 - 
 1. One Project can have many Workers.
 
-2. 
+2. One Contractor can handle multiple Projects.
 
 ### 1. Create a Contractor
 - Method: POST
