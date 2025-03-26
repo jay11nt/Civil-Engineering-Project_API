@@ -47,6 +47,8 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 - ### Entities and Relationships
 
+ 1. Project - Represents a civil construction project.
+
 
 ### 1. Create a Contractor
 - Method: POST
