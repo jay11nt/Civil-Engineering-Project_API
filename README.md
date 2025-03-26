@@ -51,6 +51,8 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
  2. Contractor - Manages details of contractors.
 
+ 3. Material - Stores material-related information.
+
 ### 1. Create a Contractor
 - Method: POST
   
