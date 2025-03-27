@@ -76,10 +76,10 @@ Create a Project-
 Request Body:
 
     {
-  "name": "Highway Expansion",
-  "budget": 5000000.0,
-  "contractorId": 1
-}
+    "name": "Highway Expansion",
+    "budget": 5000000.0,
+    "contractorId": 1
+    }
 
 
 ### 
