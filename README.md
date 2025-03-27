@@ -69,9 +69,18 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 ## API Endpoints :-
 ### 1. Project API
-  Create a Project- 
+Create a Project- 
   
      POST /api/projects
+
+Request Body:
+
+    {
+  "name": "Highway Expansion",
+  "budget": 5000000.0,
+  "contractorId": 1
+}
+
 
 ### 
 ###
