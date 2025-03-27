@@ -68,21 +68,7 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 
 ## API Endpoints :-
-### 1. Create a Contractor
-- Method: POST
-  
-- URL: http://localhost:8080/api/contractors
-  
-- Body (raw, JSON):
-    
-                {
-              "name": "ABC Constructions",
-              "licenseNumber": "LIC12345"
-                }
+### 
 
-### 2. Get All Contractors
-- Method: GET
-
-- URL: http://localhost:8080/api/contractors
-
-### Create a Project
+### 
+###
