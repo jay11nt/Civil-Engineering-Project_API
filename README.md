@@ -68,7 +68,10 @@ This is a Spring Boot-based backend project for managing civil engineering-relat
 
 
 ## API Endpoints :-
-### 
+### 1. Project API
+  Create a Project- 
+  
+     POST /api/projects
 
 ### 
 ###
