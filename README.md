@@ -83,6 +83,15 @@ Request Body:
 
 Response:
 
+      {
+        "id": 1,
+        "name": "Highway Expansion",
+        "budget": 5000000.0,
+        "contractor": {
+          "id": 1,
+          "name": "ABC Constructions"
+        }
+      }
 
 ### 
 ###
