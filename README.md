@@ -96,4 +96,7 @@ Response:
 ### 2. Contractor API
 
 Get All Contractors-
+
+    GET /api/contractors
+    
 ###
