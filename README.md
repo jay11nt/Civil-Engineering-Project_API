@@ -98,5 +98,6 @@ Response:
 Get All Contractors-
 
     GET /api/contractors
-    
-###
+
+Response:
+     
