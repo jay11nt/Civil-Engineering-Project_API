@@ -100,4 +100,11 @@ Get All Contractors-
     GET /api/contractors
 
 Response:
+
+    [
+      {
+        "id": 1,
+        "name": "ABC Constructions"
+      }
+    ]
      
