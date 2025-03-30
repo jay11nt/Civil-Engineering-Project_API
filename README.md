@@ -124,5 +124,13 @@ Request Body:
     
 Response:
 
-
+{
+  "id": 1,
+  "name": "Cement",
+  "price": 300,
+  "project": {
+    "id": 1,
+    "name": "Highway Expansion"
+  }
+}
 
