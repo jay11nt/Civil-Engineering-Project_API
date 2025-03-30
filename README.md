@@ -114,3 +114,9 @@ Add Material
     POST /api/materials
 
 Request Body:
+
+    {
+      "name": "Cement",
+      "price": 300,
+      "projectId": 1
+    }
