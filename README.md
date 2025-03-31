@@ -146,3 +146,15 @@ Request Body:
       "role": "Engineer",
       "projectId": 1
     }
+
+Response:
+
+{
+  "id": 1,
+  "name": "John Doe",
+  "role": "Engineer",
+  "project": {
+    "id": 1,
+    "name": "Highway Expansion"
+  }
+}
