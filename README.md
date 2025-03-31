@@ -149,12 +149,12 @@ Request Body:
 
 Response:
 
-{
-  "id": 1,
-  "name": "John Doe",
-  "role": "Engineer",
-  "project": {
-    "id": 1,
-    "name": "Highway Expansion"
-  }
-}
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Engineer",
+      "project": {
+        "id": 1,
+        "name": "Highway Expansion"
+      }
+    }
