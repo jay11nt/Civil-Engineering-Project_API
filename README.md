@@ -141,6 +141,7 @@ Assign Worker to a Project
     POST /api/workers
 
 Request Body:
+
     {
       "name": "John Doe",
       "role": "Engineer",
