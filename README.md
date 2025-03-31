@@ -134,3 +134,10 @@ Response:
       }
     }
 
+### 4. Worker API
+
+Assign Worker to a Project
+
+    POST /api/workers
+
+Request Body:
