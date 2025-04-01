@@ -18,7 +18,8 @@ public BuildingController(BuildingService buildingService)
     }
 
 @PostMapping
-    public ResponseEntity<Building> createBuilding(@RequestBody Building building) {
+    public ResponseEntity<Building> createBuilding(@RequestBody Building building) 
+    {
         return ResponseEntity.ok(buildingService.createBuilding(building));
     }
 @GetMapping
