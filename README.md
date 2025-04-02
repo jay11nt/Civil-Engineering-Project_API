@@ -134,7 +134,7 @@ Response:
       }
     }
 
-### 4. Worker API
+### 4. Worker API-
 
 Assign Worker to a Project
 
