@@ -160,3 +160,7 @@ Response:
         "name": "Highway Expansion"
       }
     }
+
+
+
+This Spring Boot project provides a structured backend API for managing civil engineering projects with relational mappings. It is suitable for testing and further enhancements.
