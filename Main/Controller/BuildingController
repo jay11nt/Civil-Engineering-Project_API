@@ -23,7 +23,8 @@ public BuildingController(BuildingService buildingService)
         return ResponseEntity.ok(buildingService.createBuilding(building));
     }
 @GetMapping
-    public ResponseEntity<List<Building>> getAllBuildings() {
+    public ResponseEntity<List<Building>> getAllBuildings() 
+    {
         return ResponseEntity.ok(buildingService.getAllBuildings());
     }
 @GetMapping("/{id}")
