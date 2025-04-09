@@ -28,7 +28,8 @@ public BuildingController(BuildingService buildingService)
         return ResponseEntity.ok(buildingService.getAllBuildings());
     }
 @GetMapping("/{id}")
-    public ResponseEntity<Building> getBuildingById(@PathVariable Long id) {
+    public ResponseEntity<Building> getBuildingById(@PathVariable Long id) 
+    {
         return buildingService.getBuildingById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
