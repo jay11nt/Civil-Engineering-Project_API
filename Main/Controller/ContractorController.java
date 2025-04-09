@@ -10,7 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/contractors")
-public class ContractorController {
+public class ContractorController 
+{
     private final ContractorService contractorService;
 
     public ContractorController(ContractorService contractorService) {
