@@ -40,7 +40,8 @@ public BuildingController(BuildingService buildingService)
         return ResponseEntity.ok(buildingService.updateBuilding(id, building));
     }
 @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteBuilding(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteBuilding(@PathVariable Long id) 
+    {
         buildingService.deleteBuilding(id);
         return ResponseEntity.noContent().build();
     }
