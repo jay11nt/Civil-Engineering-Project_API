@@ -14,7 +14,8 @@ public class ContractorController
 {
     private final ContractorService contractorService;
 
-    public ContractorController(ContractorService contractorService) {
+    public ContractorController(ContractorService contractorService) 
+    {
         this.contractorService = contractorService;
     }
   
