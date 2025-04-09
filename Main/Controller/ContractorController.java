@@ -20,7 +20,8 @@ public class ContractorController
     }
   
 @PostMapping
-    public ResponseEntity<Contractor> createContractor(@RequestBody Contractor contractor) {
+    public ResponseEntity<Contractor> createContractor(@RequestBody Contractor contractor) 
+    {
         return ResponseEntity.ok(contractorService.createContractor(contractor));
     }
 @GetMapping
