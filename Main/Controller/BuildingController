@@ -35,7 +35,8 @@ public BuildingController(BuildingService buildingService)
                 .orElse(ResponseEntity.notFound().build());
     }
 @PutMapping("/{id}")
-    public ResponseEntity<Building> updateBuilding(@PathVariable Long id, @RequestBody Building building) {
+    public ResponseEntity<Building> updateBuilding(@PathVariable Long id, @RequestBody Building building) 
+    {
         return ResponseEntity.ok(buildingService.updateBuilding(id, building));
     }
 @DeleteMapping("/{id}")
