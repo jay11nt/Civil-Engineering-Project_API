@@ -34,7 +34,8 @@ public class ProjectController
                 .orElse(ResponseEntity.notFound().build());
     }
 @PutMapping("/{id}")
-    public ResponseEntity<Project> updateProject(@PathVariable Long id, @RequestBody Project project) {
+    public ResponseEntity<Project> updateProject(@PathVariable Long id, @RequestBody Project project) 
+    {
         return ResponseEntity.ok(projectService.updateProject(id, project));
     }
 @DeleteMapping("/{id}")
