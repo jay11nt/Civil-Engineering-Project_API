@@ -28,7 +28,8 @@ public EngineerController(EngineerService engineerService)
         return ResponseEntity.ok(engineerService.getAllEngineers());
     }
 @GetMapping("/{id}")
-    public ResponseEntity<Engineer> getEngineerById(@PathVariable Long id) {
+    public ResponseEntity<Engineer> getEngineerById(@PathVariable Long id) 
+    {
         return engineerService.getEngineerById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
