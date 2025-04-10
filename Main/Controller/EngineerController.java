@@ -40,7 +40,8 @@ public EngineerController(EngineerService engineerService)
         return ResponseEntity.ok(engineerService.updateEngineer(id, engineer));
     }
 @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteEngineer(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteEngineer(@PathVariable Long id) 
+    {
         engineerService.deleteEngineer(id);
         return ResponseEntity.noContent().build();
     }
