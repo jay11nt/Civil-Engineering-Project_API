@@ -27,7 +27,8 @@ public class ProjectController
         return ResponseEntity.ok(projectService.getAllProjects());
     }
 @GetMapping("/{id}")
-    public ResponseEntity<Project> getProjectById(@PathVariable Long id) {
+    public ResponseEntity<Project> getProjectById(@PathVariable Long id) 
+    {
         return projectService.getProjectById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
