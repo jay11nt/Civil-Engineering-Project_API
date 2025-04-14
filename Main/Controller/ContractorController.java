@@ -25,7 +25,8 @@ public class ContractorController
         return ResponseEntity.ok(contractorService.createContractor(contractor));
     }
 @GetMapping
-    public ResponseEntity<List<Contractor>> getAllContractors() {
+    public ResponseEntity<List<Contractor>> getAllContractors() 
+    {
         return ResponseEntity.ok(contractorService.getAllContractors());
     }
     @GetMapping("/{id}")
