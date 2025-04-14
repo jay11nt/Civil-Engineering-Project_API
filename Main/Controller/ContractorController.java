@@ -37,7 +37,8 @@ public class ContractorController
                 .orElse(ResponseEntity.notFound().build());
     }
 @PutMapping("/{id}")
-    public ResponseEntity<Contractor> updateContractor(@PathVariable Long id, @RequestBody Contractor contractor) {
+    public ResponseEntity<Contractor> updateContractor(@PathVariable Long id, @RequestBody Contractor contractor) 
+    {
         return ResponseEntity.ok(contractorService.updateContractor(id, contractor));
     }
 @DeleteMapping("/{id}")
