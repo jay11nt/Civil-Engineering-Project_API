@@ -30,7 +30,8 @@ public class ContractorController
         return ResponseEntity.ok(contractorService.getAllContractors());
     }
     @GetMapping("/{id}")
-    public ResponseEntity<Contractor> getContractorById(@PathVariable Long id) {
+    public ResponseEntity<Contractor> getContractorById(@PathVariable Long id) 
+    {
         return contractorService.getContractorById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
