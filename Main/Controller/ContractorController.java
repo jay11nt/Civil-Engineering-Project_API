@@ -42,7 +42,8 @@ public class ContractorController
         return ResponseEntity.ok(contractorService.updateContractor(id, contractor));
     }
 @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteContractor(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteContractor(@PathVariable Long id) 
+    {
         contractorService.deleteContractor(id);
         return ResponseEntity.noContent().build();
     }
