@@ -28,7 +28,8 @@ public Optional<Building> getBuildingById(Long id)
     {
         return buildingRepository.findById(id);
     }
-public Building updateBuilding(Long id, Building buildingDetails) {
+public Building updateBuilding(Long id, Building buildingDetails) 
+    {
         Building building = buildingRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Building not found"));
         building.setName(buildingDetails.getName());
