@@ -24,7 +24,8 @@ public List<Building> getAllBuildings()
     {
         return buildingRepository.findAll();
     }
-public Optional<Building> getBuildingById(Long id) {
+public Optional<Building> getBuildingById(Long id) 
+    {
         return buildingRepository.findById(id);
     }
 public Building updateBuilding(Long id, Building buildingDetails) {
