@@ -20,7 +20,8 @@ public BuildingService(BuildingRepository buildingRepository)
     {
         return buildingRepository.save(building);
     }
-public List<Building> getAllBuildings() {
+public List<Building> getAllBuildings() 
+    {
         return buildingRepository.findAll();
     }
 public Optional<Building> getBuildingById(Long id) {
