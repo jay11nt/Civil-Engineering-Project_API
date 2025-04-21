@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class BuildingService {
+public class BuildingService 
+{
     private final BuildingRepository buildingRepository;
 
 public BuildingService(BuildingRepository buildingRepository) {
